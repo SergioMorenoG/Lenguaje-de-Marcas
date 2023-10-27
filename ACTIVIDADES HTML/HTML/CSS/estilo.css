@@ -3,7 +3,7 @@ nav li{
   display: inline-block;
   padding:10px 70px;
   text-align:center;
-  background-color:rgba(210, 178, 178, 0.543);
+
 
 }
 ul{
@@ -23,8 +23,9 @@ a:hover{
 }
 
 nav{
-  color:whitesmoke;
-  font-size: 20px;
+  font-family: fuente_oswald;
+  font-size: 25px;
+  color:rgb(255, 255, 255);
 }
 
 nav:hover{
@@ -47,4 +48,46 @@ nav:hover{
   box-shadow: 0px 0px 4px gray;
 }
 
+body{
+  background-image:url("Imagenes_CSS/fondo.png");
+  background-repeat: no-repeat;
+  background-color:#f9f1cf; 
+}
 
+@font-face {
+  font-family:fuente_oswald;
+  src: url(Fuentes/Oswald-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family:fuente_electro;
+  src: url(Fuentes/Electrolize-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family:fuente_inder;
+  src: url(Fuentes/Inder-Regular.ttf) format("truetype");
+}
+
+header{
+  font-family:fuente_electro;
+  font-size: 22px;
+  color: white;
+}
+
+section{
+  font-family: fuente_inder;
+  font-size: 15px;
+}
+
+footer{
+  font-family: fuente_electro;
+  font-size: 13px;
+  color: silver;
+}
+
+#titulo{
+  font-family:alegreya-light;
+  font-size:18px;
+  margin: top 47px;
+}
